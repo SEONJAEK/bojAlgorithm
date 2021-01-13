@@ -38,6 +38,7 @@ public class b_1874 {
 			stack.pop();
 			sb.append('-').append('\n');
 		}
+		//결과물 출력
 		System.out.println(sb);
 		
 	}
