@@ -21,7 +21,7 @@ public class b_1874 {
 		while(N-- >0) {
 			int value = Integer.parseInt(br.readLine());
 			
-			//value> start일때
+			//1.value> start일때
 			if(value > start) {
 				//value까지 for문돌려서 push(값)도 해야하고, append(+)도 해야하고
 				for(int i = start + 1; i<= value; i++ ) {
@@ -34,7 +34,7 @@ public class b_1874 {
 			else if(stack.peek() != value) {
 				System.out.println("NO");
 			}
-			// value=start일때
+			// 2.value=start일때
 			stack.pop();
 			sb.append('-').append('\n');
 		}
